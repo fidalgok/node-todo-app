@@ -5,3 +5,5 @@ mongoose.connect('mongodb://localhost/todo-api');
 
 //Allows us to use promises with Mongoose!
 mongoose.Promise = Promise;
+
+module.exports.Todo = require("./todo");
