@@ -9,3 +9,10 @@ GET     /api/todos/:todoid   Retrieves a todo
 PUT     /api/todos/:todoid   Update a todo
 DELETE  /api/todos/:todoid   Delete a todo
 
+## App Organization
+All Database models can be found in the models folder
+
+All Routes can be found in the routes folder
+
+Helper functions for API route callbacks are found in the helpers folder
+
